@@ -3,7 +3,7 @@ body{
 }
 header{
     text-align: center;
-    background-color: pink;
+    background-color: #8fce00 ;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-left: 30%;
@@ -15,7 +15,7 @@ header{
 
 footer {
     text-align: center;
-    background-color: pink;
+    background-color: #8fce00 ;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-left: 30%;
