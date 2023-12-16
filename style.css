@@ -1,25 +1,27 @@
 body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 header{
     text-align: center;
-    background-color: #8fce00 ;
+    background-color: palevioletred ;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
     border-radius: 5px;
-    margin-top: 25px;
-    margin-top: 25px;
+    margin-top: 50px;
+
 }
 
 footer {
     text-align: center;
-    background-color: #8fce00 ;
+    background-color:palevioletred ;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 #description{
     padding-left: 30px;
@@ -28,10 +30,11 @@ footer {
     padding: 30px;
     padding-bottom: 70px;
     background-color: cyan;
+    border-radius: 5px;
 }
 table{
-    margin-left:30%;
-    margin-right: 30%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 img{
     width: 320px;
