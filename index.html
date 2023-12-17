@@ -16,7 +16,7 @@
                 <h3>Imel Rantetandung</h3>
                 <ul>
                     <li><h3>@imel_rantetandung</h3></li>
-                    <li><h3>Toraja Utara, Sulawesi Selatan</h3></li>
+                    <li><h3>Toraja Utara, Sulawesi Selatan, Indonesia</h3></li>
                     <li><h3><a href="https://www.ukdw.ac.id/">Duta Wacana Christian University</a></h3></li>
                 </ul>
                 <h3>Skillset</h3>
@@ -31,5 +31,16 @@
         </tr>
     </table>
     <footer>Thank You For Visiting My Web Page</footer>
+    <script>
+        const bodyElement = document .body;
+
+        function gantiWarna() {
+            const warnaList = ["#ff0000", "#0000ff", "#008000", "#FFFFFF"];
+            const randomIndex = Math.floor(Math.random() * warnaList.length);
+            const warnaRandom = warnaList[randomIndex];
+            bodyElement.style.backgroundColor = warnaRandom;
+        }
+    </script>
+    <button class = "button" onclick="gantiWarna()" >Tombol Ganti Warna</button>
 </body>
 </html>
