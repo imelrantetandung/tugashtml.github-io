@@ -31,5 +31,16 @@
         </tr>
     </table>
     <footer>Thank You For Visiting My Web Page</footer>
+    <script>
+        const bodyElement = document .body;
+
+        function gantiWarna() {
+            const warnaList = ["#ff0000", "#0000ff", "#00ff00", "#FFFFFF"];
+            const randomIndex = Math.floor(Math.random() * warnaList.length);
+            const warnaRandom = warnaList[randomIndex];
+            bodyElement.style.backgroundColor = warnaRandom;
+        }
+    </script>
+    <button class = "button" onclick="gantiWarna()" >Tombol Ganti Warna</button>
 </body>
 </html>
